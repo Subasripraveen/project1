@@ -16,6 +16,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactHookForm from "./Component/ReactHookForm";
 import ErrorHandling from "./Component/ErrorHandling";
 import UseRef from "./Component/UseRef";
+import PageApione from "./Component/PageApione";
+import PageApitwo from "./Component/PageApitwo";
 // import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -61,7 +63,8 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <>
+    {/* <BrowserRouter> */}
       {/* <CounterComp/> */}
       {/* <ExampleTwoComp/> */}
       {/* <ExampleThreeComp/> */}
@@ -91,15 +94,17 @@ function App() {
 
       {/* <UseRef/> */}
 
-      <div className="m-2">
+
+{/* Router program explanation */}
+      {/* <div className="m-2">
 
         <Link to={"/"} className="ms-2">home </Link>
         <Link to={"HookForm"} className="ms-2">HookForm</Link>
         <Link to={"ErrorHandling"}className="ms-2">ErrorHandling</Link>
 
-      </div>
+      </div> */}
 
-      <Routes>
+      {/* <Routes>
 
         <Route path="/" element={<FormReact />} />
 
@@ -107,9 +112,14 @@ function App() {
 
         <Route path="ErrorHandling" element={<ErrorHandling />} />
 
-      </Routes>
+      </Routes> */}
 
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
+{/* 
+<PageApione/> */}
+{/* <PageApitwo/> */}
+
+    </>
   )
 }
 export default App
